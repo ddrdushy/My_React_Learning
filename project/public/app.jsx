@@ -1,15 +1,17 @@
 var Greeter=React.createClass({
   getDefaultProps:function(){
     return {
-      name:"React"
+      name:"React",
+      message:"Hello this is from react component"
     };
   },
   render:function(){
     var name=this.props.name;
+    var message=this.props.message;
     return(
       <div>
         <h1>Hello {name}!</h1>
-        <p>Hello this is from react component</p>
+        <p>{message}</p>
       </div>
     );
   }
@@ -18,6 +20,6 @@ var Greeter=React.createClass({
 var firstName="Dushy";
 
 ReactDOM.render(
-  <Greeter name={firstName}/>,
+  <Greeter name={firstName} message="hello from react"/>,
   document.getElementById("app")
 );
