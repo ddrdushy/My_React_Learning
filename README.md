@@ -11,3 +11,10 @@ This is my repository of tracking my React.js Learning process. this will includ
   * written the React code in `index.html`.
   * code refactored to `app.js` file.
   * created the React Component.
+
+## 13-Dec-2016
+  * `props` in React. (used to send data while initialization)
+  * used `refs` to get user interaction.
+  * `state` in React. (used to internally maintain and update by the Component)
+  * Nesting React Components.
+  * `presentational component`(render something to the browser) and `container component` (maintain state and render children).
