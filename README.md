@@ -18,3 +18,6 @@ This is my repository of tracking my React.js Learning process. this will includ
   * `state` in React. (used to internally maintain and update by the Component)
   * Nesting React Components.
   * `presentational component`(render something to the browser) and `container component` (maintain state and render children).
+
+## 14-Dec-2016
+  * challenge is worked out.
